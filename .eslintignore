@@ -1,0 +1,9 @@
+node_modules
+
+prisma
+
+build
+
+vite.config.ts
+
+prisma/vitest-environment-prisma/prisma-test-environment.ts 
