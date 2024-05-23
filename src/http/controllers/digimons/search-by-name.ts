@@ -3,7 +3,7 @@ import { SearchByNameDigimonExistError } from '@/use-case/errors/search-by-name-
 import { FastifyReply, FastifyRequest } from 'fastify'
 import { z } from 'zod'
 
-export async function searchByNamelUseCase(
+export async function searchByNameUseCase(
   request: FastifyRequest,
   reply: FastifyReply,
 ) {
