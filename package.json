@@ -6,6 +6,7 @@
     "start:dev": "tsx watch src/server.ts",
     "prisma:db": "npx prisma migrate dev",
     "db:seed": "tsx prisma/seed.ts",
+    "prisma:studio": "npx prisma studio",
     "lint": "eslint src --ext .ts --fix"
   },
   "keywords": [],
