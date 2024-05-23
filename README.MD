@@ -54,11 +54,17 @@ Siga estes passos para configurar e executar o projeto:
    ```
    Este comando iniciará o servidor de desenvolvimento.
 
-7. **A API está executando na porta 3000**
+7. **Vizualizar os dados persistindos no banco de dados**
+   ```bash
+   npm run prisma:studio,
+   ```
+   Este comando iniciará o servidor de desenvolvimento.
+
+8. **A API está executando na porta 3000**
    ```bash
    http://localhost:3000/digimons
    ```
-8. **A aplicação tem as seguintes rotas**
+9. **A aplicação tem as seguintes rotas**
    ```bash 
    http://localhost:3000/digimon/name/:name
 
