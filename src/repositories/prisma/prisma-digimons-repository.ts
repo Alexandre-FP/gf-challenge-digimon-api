@@ -29,9 +29,9 @@ export class PrismaDigimonsRepository implements DigimonsRepository {
   }
 
   async findBylevel(level: string) {
-    const digimon = await prisma.digimon.findFirst({
+    const digimon = await prisma.digimon.findMany({
       where: {
-        level
+        level 
       }
     })
 
