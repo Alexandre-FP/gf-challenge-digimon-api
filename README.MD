@@ -13,7 +13,7 @@ Este é um serviço de API desenvolvido para o desafio técnico da [Global Finan
 Antes de começar, certifique-se de ter os seguintes requisitos instalados:
 
 - [Node.js](https://nodejs.org/)
-- [Docker](https://www.docker.com/get-started) e [Docker Compose](https://docs.docker.com/compose/install/)
+- [Docker](https://www.docker.com/get-started)
 - [npm](https://www.npmjs.com/get-npm) (geralmente incluído com o Node.js)
 
 Siga estes passos para configurar e executar o projeto:
