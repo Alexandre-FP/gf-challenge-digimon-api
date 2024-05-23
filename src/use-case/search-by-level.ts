@@ -7,7 +7,7 @@ interface GetDigimonsByLevelUseCaseRequest {
 }
 
 interface GetDigimonsByLevelUseCaseResponse {
-  digimons: Digimon
+  digimons: Digimon[]
 }
 
 export class GetDigimonsByLevelUseCase {
